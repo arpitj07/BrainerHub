@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "nodeNext",
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}
