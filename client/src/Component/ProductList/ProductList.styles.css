@@ -1,0 +1,110 @@
+.GridWrapper{
+    width: 1280px;
+    height: auto;
+    
+    background-color: rgb(220, 220, 220);
+    margin-bottom: 550px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.SearchBarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+
+}
+
+
+
+.SearchContent>input{
+    font-size: 15px;
+    padding: 0 0 0 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid #003566;
+    width: 700px;
+    height: 40px;
+    background: white;
+    outline: None;
+}
+
+.SearchContent SearchIcon{
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    width: 30px;
+    height: 30px;
+}
+
+.SearchBarContainer button{
+    position: absolute;
+    right: 170px;
+    background-color: #003566;
+    height: 40px;
+    width: 150px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+    padding: 30px;
+    
+}
+
+
+.GridContainer .Product__single{
+    width: 330px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.ProductImageContainer{
+    margin: 10px;
+}
+
+.ProductImageContainer img{
+    width: 230px;
+    height: 230px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    object-fit: cover;
+}
+
+.productdetails{
+   padding: 0px 20px;
+}
+
+.productdetails .truncate{
+    width: 230px;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
